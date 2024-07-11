@@ -23,6 +23,31 @@ header {
     border: none;
     padding: 10px 20px;
     margin: 0 5px;
+    cursor: pointer;
+}
+
+.gallery-item {
+    margin: 10px;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+/* Optional hover effect */
+.filter-button:hover {
+    background-color: #777;
+}
+
+/* Optional hover effect for images */
+.gallery-item img:hover {
+    opacity: 0.8;
+}
+
+.gallery-item {
+    display: block;
     opacity: 1;
     transition: opacity 0.3s ease-in-out;
 }
