@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #3c3275;
     color: white;
     padding: 10px;
     text-align: center;
@@ -18,7 +18,7 @@ header {
 }
 
 .filter-button {
-    background-color: #555;
+    background-color: #3c3275;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -28,20 +28,21 @@ header {
 
 .gallery-item {
     margin: 10px;
+    align-items: center;
 }
 
 .gallery-item img {
     max-width: 100%;
     display: block;
     border-radius: 5px;
+    
 }
 
-/* Optional hover effect */
+
 .filter-button:hover {
-    background-color: #777;
+    background-color: #5649a1;
 }
 
-/* Optional hover effect for images */
 .gallery-item img:hover {
     opacity: 0.8;
 }
