@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="lab9.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="lab9.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Photo Gallery</h1>
+        <div id="filters">
+            <button class="filter-button" data-filter="all">All</button>
+            <button class="filter-button" data-filter="nature">Nature</button>
+            <button class="filter-button" data-filter="city">City</button>
+            <button class="filter-button" data-filter="people">People</button>
+        </div>
+    </header>
+    <section id="gallery">
+        <div class="gallery-item nature">
+            <img src="nature1.jpg" alt="Nature 1">
+        </div>
+        <div class="gallery-item city">
+            <img src="city1.jpg" alt="City 1">
+        </div>
+        <!-- More images -->
+    </section>
+
+</body>
+</html>
