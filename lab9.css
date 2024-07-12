@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #abb2f3;
 }
 
 header {
@@ -28,14 +28,14 @@ header {
 
 .gallery-item {
     margin: 10px;
-    align-items: center;
+    text-align: center;
 }
 
 .gallery-item img {
     max-width: 100%;
     display: block;
     border-radius: 5px;
-    
+    margin: 0 auto;
 }
 
 
